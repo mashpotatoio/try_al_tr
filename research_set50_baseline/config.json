@@ -1,0 +1,23 @@
+{
+  "initial_cash": 10000000.0,
+  "lookback": 20,
+  "holdings": 10,
+  "rebalance_sessions": 5,
+  "target_exposure": 0.98,
+  "max_weight": 0.15,
+  "volatility_floor": 0.005,
+  "rsi_threshold": 30,
+  "commission": 0.00157,
+  "vat": 0.07,
+  "lot_size": 100,
+  "strategies": ["buy_hold", "momentum", "relative_vol", "relative_equal", "rsi_oversold"],
+  "native_start": "2026-09-09",
+  "native_end": "2026-09-30",
+  "sell_time": "10:00",
+  "buy_time": "10:05",
+  "stop_time": "10:30",
+  "retry_minutes": 5,
+  "window_sessions": 20,
+  "development_windows": 11,
+  "seed": 0
+}

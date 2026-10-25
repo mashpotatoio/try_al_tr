@@ -1,0 +1,179 @@
+{
+  "native_experiment": "20261025T163506Z_run-native_14fbba1f",
+  "daily_experiment": "20261025T163641Z_run-daily_7f6c0946",
+  "initial_cash_thb": 10000000,
+  "native_sessions": 16,
+  "daily_evaluation_windows": 24,
+  "development_windows": 11,
+  "native_period": {
+    "start": "2026-09-09",
+    "end": "2026-09-30"
+  },
+  "evaluation_windows": [
+    {
+      "start": "2024-09-18",
+      "end": "2024-10-16"
+    },
+    {
+      "start": "2024-10-17",
+      "end": "2024-11-14"
+    },
+    {
+      "start": "2024-11-15",
+      "end": "2024-12-16"
+    },
+    {
+      "start": "2024-12-17",
+      "end": "2025-01-15"
+    },
+    {
+      "start": "2025-01-16",
+      "end": "2025-02-13"
+    },
+    {
+      "start": "2025-02-14",
+      "end": "2025-03-13"
+    },
+    {
+      "start": "2025-03-14",
+      "end": "2025-04-11"
+    },
+    {
+      "start": "2025-04-16",
+      "end": "2025-05-16"
+    },
+    {
+      "start": "2025-05-19",
+      "end": "2025-06-17"
+    },
+    {
+      "start": "2025-06-18",
+      "end": "2025-07-16"
+    },
+    {
+      "start": "2025-07-17",
+      "end": "2025-08-18"
+    },
+    {
+      "start": "2025-08-19",
+      "end": "2025-09-15"
+    },
+    {
+      "start": "2025-09-16",
+      "end": "2025-10-14"
+    },
+    {
+      "start": "2025-10-15",
+      "end": "2025-11-12"
+    },
+    {
+      "start": "2025-11-13",
+      "end": "2025-12-12"
+    },
+    {
+      "start": "2025-12-15",
+      "end": "2026-01-14"
+    },
+    {
+      "start": "2026-01-15",
+      "end": "2026-02-11"
+    },
+    {
+      "start": "2026-02-12",
+      "end": "2026-03-12"
+    },
+    {
+      "start": "2026-03-13",
+      "end": "2026-04-10"
+    },
+    {
+      "start": "2026-04-16",
+      "end": "2026-05-15"
+    },
+    {
+      "start": "2026-05-18",
+      "end": "2026-06-16"
+    },
+    {
+      "start": "2026-06-17",
+      "end": "2026-07-14"
+    },
+    {
+      "start": "2026-07-15",
+      "end": "2026-08-14"
+    },
+    {
+      "start": "2026-08-17",
+      "end": "2026-09-11"
+    }
+  ],
+  "strategy_config": {
+    "initial_cash": 10000000.0,
+    "lookback": 20,
+    "holdings": 10,
+    "rebalance_sessions": 5,
+    "target_exposure": 0.98,
+    "max_weight": 0.15,
+    "volatility_floor": 0.005,
+    "rsi_threshold": 30,
+    "commission": 0.00157,
+    "vat": 0.07,
+    "lot_size": 100,
+    "strategies": [
+      "buy_hold",
+      "momentum",
+      "relative_vol",
+      "relative_equal",
+      "rsi_oversold"
+    ],
+    "native_start": "2026-09-09",
+    "native_end": "2026-09-30",
+    "sell_time": "10:00",
+    "buy_time": "10:05",
+    "stop_time": "10:30",
+    "retry_minutes": 5,
+    "window_sessions": 20,
+    "development_windows": 11,
+    "seed": 0
+  },
+  "source_identity_sha256": "2306f29df909e29ac362f68f37811ab19ceeab79b826e57d15cfc0b6bf829595",
+  "research_source_sha256": {
+    "research_set50_baseline\\__init__.py": "bc244fa79b50cc0268fbaf0305d4da7576032c8b828af05951f830c8da21c3b1",
+    "research_set50_baseline\\__main__.py": "7dd9c38a913ce1352d172b9c4962ae27054194b96c1d1f66cabcd245fd7a54c6",
+    "research_set50_baseline\\bootstrap_plotting.py": "72b509fde5c4be580abffbb44ae9cb973236c22f53af26c2c96cf9c48182381b",
+    "research_set50_baseline\\core.py": "e876076d55be688da8e6c3a3238a62c407e7e6482c42dd7f164adc3835c78e12",
+    "research_set50_baseline\\data.py": "45e2d4e49989b85442304161f043558db934b4ea1419223d6be534f99b296b03",
+    "research_set50_baseline\\evaluation.py": "dcc06d396db4478da1d8bc8d635f59e7b08f926ad45baf35bb714ee1c1d40c58",
+    "research_set50_baseline\\runner.py": "411f95355bb5aeb3571aaeb7838502c83f6a6c67c34f7e713312f2ede614215b",
+    "research_set50_baseline\\verify.py": "cbaf78682529c8931606ef8b2821fb81736d68a337db81bc6ed0dcf7267ce7f0"
+  },
+  "engine_adapter_sha256": {
+    "tradeSim\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tradeSim\\BarAggregator.py": "a4798f7ab237096aeb676454bd6e2b5d86dc6bac6481fff04011e2e4e4affa5d",
+    "tradeSim\\Benchmark.py": "63d1a8cc84031517f5d3b79736a5f66423a4ac624da242c0e4f6d13d734fa39f",
+    "tradeSim\\CommissionService.py": "6cd1ac978c510a0968c25ab9bc8d95150e7daba6f548e24d997400316c8fe85c",
+    "tradeSim\\Execution.py": "03c5536a3cd6f291871af74d7cf8834dfc2e56c16734c788eafdab65e29ea008",
+    "tradeSim\\HistoricalData.py": "77cf483b1f372a87847636f91337128f3cf9ad59c220678225cead44509f2dba",
+    "tradeSim\\Order.py": "aa51db3aac30b0eadc34547785051d07d91f3d62c6918343630554e5b2c21e50",
+    "tradeSim\\Portfolio.py": "9074414d3462612b2da5200628ce76a455e44936ffa08ddb29f9addb2e391983",
+    "tradeSim\\PortSummarize.py": "35b3c39f3505740c4991d3370fe419f30070973024a8617d634056c0cf01a551",
+    "tradeSim\\Stock.py": "77f14b9a34870719075fbfa45084945b69ded29fa752fc2c4952c034068db0af",
+    "tradeSim\\Strategy_runner.py": "92ae9886b03d681fea1e03ee44cdc3a5f4904f620c44efff9e39942d08fde839",
+    "tradeSim\\StrategyHandler.py": "63186217afa32055b8d7c97b70fa749b0ec391743392adb8f2b0f97719fd06aa",
+    "tradeSim\\TradeSim.py": "2a7e57874be2fbdfd9f16b0389aef009121d9b02d61f95210beb312641ebb2c5",
+    "tradeSim\\TransactionLog.py": "3de17e2ebc667e2ca7998388db539bc7d88d9669404fa8b6a25a61a8fcb8829e",
+    "strategy\\Example_historical_strategy.py": "e998258aee97c7b54c42b2ea83dd2127cbd43ebdbfee62a3c249f566339921ba",
+    "strategy\\Example_strategy.py": "1903919e7fc6011c69f5e590a000a85f73c38cb4017de9ccc9ddba0e1a94277a",
+    "strategy\\Strategies_template.py": "1813002e51c6739134c3ff791f9194e583cee1153e74fa0e452735724cb531f3"
+  },
+  "market_data_identity_sha256": "c51db197f95c678d4765d8ced63554d0fd66af03f39eb2f50e573a19a44bed76",
+  "market_data_files": 508,
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.3.1",
+    "pandas": "2.3.1",
+    "matplotlib": "not installed in active path",
+    "rich": "14.0.0"
+  },
+  "seed": 0
+}

@@ -1,0 +1,10 @@
+# Local research state and machine-specific dependencies; compact results/ stays tracked.
+__pycache__/
+*.py[cod]
+.plot_cache/
+vendor/
+experiments/
+checks/
+checkpoints/
+plotting_environment.json
+original_manifest.json
