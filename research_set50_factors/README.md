@@ -2,6 +2,8 @@
 
 This package studies whether completed daily stock observations rank subsequent SET50 stock returns. It is Phase 2 of `research_set50_baseline`, not a replacement for that package. Factor diagnostics, adjusted-open turnover estimates, and the 16-session raw-tick cost reference are distinct outputs. None establish official competition eligibility.
 
+This publication copy includes selected compact tables and plots in [`published_results/`](published_results/README.md). The original TradeSim data and full date-level result directory are required to rerun and independently verify every result; see the repository [README](../README.md) for workspace setup.
+
 ## Reproduce
 
 From `C:\Users\Windows 10\Downloads\tradeSim0.2.5` in PowerShell:
