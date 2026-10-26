@@ -1,0 +1,17 @@
+factor,condition,condition_state,conditioning_unit,role,horizon,dates,observations,mean_rank_ic,lo,hi
+mom_5,benchmark_mom20_positive,False,market_dates,development,5,126,5418,-0.0302138767819,-0.084787815175,0.0243600616112
+mom_5,benchmark_mom20_positive,False,market_dates,evaluation,5,203,9074,-0.00727286632566,-0.047956409206,0.0334106765547
+mom_5,benchmark_mom20_positive,True,market_dates,development,5,94,4042,-0.0230315967433,-0.0770181856842,0.0309549921976
+mom_5,benchmark_mom20_positive,True,market_dates,evaluation,5,277,12712,0.0196916487222,-0.0241941806867,0.0635774781311
+mom_5,volume_surprise,False,stocks_within_date,development,5,220,4840,-0.0421478892642,-0.0862951362536,0.00199935772518
+mom_5,volume_surprise,False,stocks_within_date,evaluation,5,480,11048,0.0222322283755,-0.0150061122478,0.0594705689989
+mom_5,volume_surprise,True,stocks_within_date,development,5,220,4620,-0.00980017411947,-0.0550186455327,0.0354182972937
+mom_5,volume_surprise,True,stocks_within_date,evaluation,5,480,10663,0.000226745725971,-0.0351820316259,0.0356355230778
+reversal_3,above_sma20,False,stocks_within_date,development,5,220,4840,0.0400700360035,-0.00622650375219,0.0863665757592
+reversal_3,above_sma20,False,stocks_within_date,evaluation,5,480,11050,0.0139435700012,-0.0167738678164,0.0446610078188
+reversal_3,above_sma20,True,stocks_within_date,development,5,220,4620,0.0166746183598,-0.0106979242517,0.0440471609714
+reversal_3,above_sma20,True,stocks_within_date,evaluation,5,480,10666,0.034483365674,-0.00234037217831,0.0713071035263
+reversal_3,low_vol_20,False,stocks_within_date,development,5,220,4840,0.0316761806428,-0.0227697467583,0.0861221080439
+reversal_3,low_vol_20,False,stocks_within_date,evaluation,5,480,11048,0.00322289078512,-0.0346606333236,0.0411064148938
+reversal_3,low_vol_20,True,stocks_within_date,development,5,220,4620,0.0322414249326,-0.00332692857998,0.0678097784452
+reversal_3,low_vol_20,True,stocks_within_date,evaluation,5,480,10663,0.0179690860235,-0.0191765466055,0.0551147186525

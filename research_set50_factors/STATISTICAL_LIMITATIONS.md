@@ -1,0 +1,11 @@
+# Statistical limitations
+
+The cross-section contains at most 48 currently permitted shares. Historical SET50 membership is unavailable, introducing survivorship and selection bias. Revised OHLCV files are not as-published historical vintages. A program can enforce date cutoffs on these files but cannot certify that a historical researcher would have seen the same adjusted observations.
+
+Open-to-open labels over 3–20 sessions overlap. Date-level ICs and quantile returns are serially dependent even when every stock-date row is distinct. Uncertainty intervals use a Bartlett-kernel Newey-West estimate for the **mean of date-level observations**, with 20 lags or the horizon, whichever is greater. This is an approximation, particularly in short regimes. It does not make correlated factor tests independent. Pearson and rank IC are computed per date, so thousands of stock observations are not falsely treated as thousands of independent dates.
+
+The pre-registered primary factor/horizon rank-IC p-values receive Benjamini-Hochberg false-discovery-rate adjustments within development and evaluation panels. An adjusted value below 0.05 is still only one piece of evidence; dependence, data quality, and economic size matter. Regime and interaction findings are exploratory. The evaluation dates are **not completely unseen** because Phase 1 results were already studied there. Any factor modification prompted by evaluation results requires a future untouched sample before an out-of-sample claim.
+
+IC answers whether scores rank future stock returns. It does not answer whether a long-only investor earns a positive return, beats SET50, survives fees, or meets the competition constraints. Top-minus-bottom spreads resemble unavailable short portfolios. Historical adjusted opens cannot be treated as executable ticks, so historical cost estimates are commission-only floors and turnover diagnostics. The raw-tick reference covers just 16 September 2026 sessions and has no order-book depth or IOC fill evidence. A 20-session label often exits beyond a 20-session competition window.
+
+Report effect direction, dates, eligible stocks, intervals, absolute and benchmark-relative top quantile returns, turnover, and cost limitations together. Do not read cumulative IC as trading equity or infer causality from correlation.

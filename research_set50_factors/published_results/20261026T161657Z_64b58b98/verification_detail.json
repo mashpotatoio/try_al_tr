@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "quantile_summary_rows": 1750,
+  "segment_rows": 4370,
+  "proxy_period_rows": 2620,
+  "source_changed": [],
+  "phase1_changed": [],
+  "reconciliation_errors": [],
+  "notebook_executed_code_cells": 9,
+  "notebook_errors": [],
+  "figures": 66
+}

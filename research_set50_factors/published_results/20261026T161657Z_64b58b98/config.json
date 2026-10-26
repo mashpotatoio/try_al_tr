@@ -1,0 +1,83 @@
+{
+  "version": "phase2-preregistered-v2-schedule-correction",
+  "seed": 20261026,
+  "horizons": [
+    1,
+    3,
+    5,
+    10,
+    20
+  ],
+  "min_ic_stocks": 15,
+  "quintile_min_stocks": 30,
+  "tercile_min_stocks": 15,
+  "rolling_ic_dates": 60,
+  "hac_lags": 20,
+  "fdr_q": 0.05,
+  "proxy_top_n": 5,
+  "proxy_rebalance_sessions": [
+    1,
+    5,
+    10
+  ],
+  "proxy_initial_cash": 10000000,
+  "proxy_lot": 100,
+  "commission": 0.00157,
+  "vat": 0.07,
+  "liquidity_cap_fraction_of_prior_20d_volume": 0.01,
+  "development_first_signal": "2023-10-24",
+  "development_last_signal": "2024-09-17",
+  "evaluation_first_signal": "2024-09-18",
+  "evaluation_last_signal": "2026-09-11",
+  "factor_directions": {
+    "mom_3": 1,
+    "mom_5": 1,
+    "mom_10": 1,
+    "mom_20": 1,
+    "relative_3": 1,
+    "relative_5": 1,
+    "relative_10": 1,
+    "relative_20": 1,
+    "reversal_1": 1,
+    "reversal_3": 1,
+    "reversal_5": 1,
+    "rsi14_oversold": 1,
+    "ma20_reversion": 1,
+    "low_vol_10": 1,
+    "low_vol_20": 1,
+    "low_atr14": 1,
+    "vol_normalized_mom5": 1,
+    "vol_normalized_mom20": 1,
+    "volume_surprise": 1,
+    "volume_5_20": 1,
+    "price_volume_confirmation": 1,
+    "log_trading_value20": 1,
+    "above_sma20": 1,
+    "sma20_above_sma60": 1,
+    "trend_strength5": 1
+  },
+  "regimes": [
+    "benchmark_above_sma60",
+    "benchmark_mom20_positive",
+    "benchmark_vol20_high_past_median"
+  ],
+  "interaction_tests": [
+    [
+      "mom_5",
+      "benchmark_mom20_positive"
+    ],
+    [
+      "reversal_3",
+      "above_sma20"
+    ],
+    [
+      "mom_5",
+      "volume_surprise"
+    ],
+    [
+      "reversal_3",
+      "low_vol_20"
+    ]
+  ],
+  "evidence_rule": "Advance only if evaluation rank IC and top-quantile benchmark-relative return agree in direction, results are not concentrated in one segment, and estimated gross magnitude exceeds commission-only friction; otherwise inconclusive or unsupported. No claim of profitability from these diagnostics."
+}
