@@ -1,0 +1,13 @@
+{
+  "sessions": 16,
+  "rebalance_sessions": 4,
+  "attempted_orders": 30,
+  "filled_orders": 29,
+  "ending_nav": 9472514.7179804,
+  "daily_model_ending_nav": 9511308.436439697,
+  "ending_nav_difference": -38793.71845929697,
+  "ending_cash": 1952575.7179803995,
+  "completed_fifo_lots": 9,
+  "daily_model_completed_fifo_lots": 10,
+  "scope": "16-session native practice replay using frozen A signals and real tick volume; not official IOC or full competition window"
+}

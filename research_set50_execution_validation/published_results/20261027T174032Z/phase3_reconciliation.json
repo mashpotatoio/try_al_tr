@@ -1,0 +1,23 @@
+{
+  "saved_rows": 356,
+  "reproduced_rows": 356,
+  "matched_rows": 356,
+  "max_absolute_difference": {
+    "net_return": 0.0,
+    "gross_return_proxy": 0.0,
+    "benchmark_return": 0.0,
+    "excess_return": 0.0,
+    "commission_thb": 0.0,
+    "vat_thb": 0.0,
+    "slippage_thb": 0.0,
+    "turnover": 0.0,
+    "max_drawdown": 0.0,
+    "average_exposure": 0.0,
+    "roundtrips": 0.0,
+    "expected_payoff_thb": 0.0,
+    "common_eligible": 0.0,
+    "best_alpha_eligible": 0.0
+  },
+  "tolerance": 1e-10,
+  "reproduced_path": "C:\\Users\\Windows 10\\Downloads\\tradeSim0.2.5\\research_set50_portfolio\\results\\20261027T173905Z_979c875c\\windows.csv"
+}
