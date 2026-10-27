@@ -1,0 +1,7 @@
+{
+  "baseline": "frozen research_set50_portfolio/configs/preregistered.json",
+  "evaluation_windows": "frozen Phase 2 schedule, evaluation role only",
+  "cost_scenarios": ["zero", "commission", "commission_vat", "one_tick", "two_ticks", "unconstrained_cap", "half_fills"],
+  "hypotheses": ["positive_momentum", "rebalance_every_10"],
+  "interpretation": "exploratory; no untouched holdout"
+}

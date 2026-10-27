@@ -1,0 +1,14 @@
+{
+  "tick_session": "2026-09-09",
+  "tick_symbol": "ADVANC",
+  "tick_price": 353.0,
+  "index_order_response": "[ERROR] Market order for SET50 (Vol: 100, Side: Buy) skipped: a market order fills at the price of the bar being processed, which is ADVANC. Place it from SET50's own on_data call (check bar['ShareCode']), or use create_order_to_limit with a price.",
+  "market_order_response": "Market order for ADVANC (Vol: 100, Price: 353.0, Side: Buy) submitted successfully.",
+  "cash_before": 10000000.0,
+  "cash_after": 9964540.53154,
+  "cash_debit": 35459.46845999919,
+  "expected_cash_debit": 35459.468460000004,
+  "cash_delta_error": -8.149072527885437e-10,
+  "roundtrips": 0,
+  "scope": "single native order on real tick, not 20-session or official IOC validation"
+}

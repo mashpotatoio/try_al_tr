@@ -1,0 +1,9 @@
+strategy,drawdown_pass,roundtrip_pass,exposure_pass,payoff_pass,nonnegative_return,nonnegative_excess
+A,10,1,0,21,15,15
+B,9,1,0,21,16,16
+C,11,1,0,20,14,15
+D,11,1,0,20,16,15
+E,9,11,0,21,15,14
+buy_hold,2,24,0,24,12,16
+risk_only,9,1,0,21,15,15
+sma_trend,8,12,0,20,13,13

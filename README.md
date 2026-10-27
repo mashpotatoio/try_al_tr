@@ -1,6 +1,12 @@
 # SET50 algorithmic trading research
 
-This repository publishes three stages of SET50 research for a 20-session, long-only TradeSim competition. Phase 1 compares five baseline strategies. Phase 2 tests stock-level factors. Phase 3 evaluates cost-aware long-only portfolios and competition eligibility.
+This repository publishes Phase 1–3 and Phase 3.5 research for a 20-session, long-only TradeSim competition. Phase 3.5 audits execution assumptions, trading costs, signal quality, and competition eligibility.
+
+## Phase 3.5: execution validation and diagnosis
+
+Start with the [executed 24-cell analytical notebook](research_set50_execution_validation/notebooks/035_execution_diagnostics.ipynb), [standalone HTML report](research_set50_execution_validation/publication/phase35_execution_diagnostics.html), [research decision](research_set50_execution_validation/docs/05_research_recommendations.md), and [published result snapshot](research_set50_execution_validation/published_results/20261027T174032Z). The notebook has 12 executed code cells and seven embedded plots. The frozen Phase 3 run reproduced exactly across 356 rows. A's mean excess changed from +1.22% with zero explicit costs to −0.90% with one modeled adverse tick; booked costs averaged 2.116% of capital. Daily and raw-tick OHLC matched across 768 overlapping stock-days, but historical corporate-action adjustments and official IOC fills remain unvalidated. A 16-session native practice replay found a THB 38,794 ending NAV difference from the matched daily model; it is not a complete 20-session result.
+
+Run `python research_set50_execution_validation/verify_publication.py` from this publication root to execute every notebook code cell against the bundled snapshot. Full Phase 3.5 experiments require the preserved TradeSim workspace and raw market data.
 
 ## Phase 3: portfolio construction and risk
 

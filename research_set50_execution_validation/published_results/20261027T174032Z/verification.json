@@ -1,0 +1,16 @@
+{
+    "native_attempted_orders":  30,
+    "inherited_phase3_tests_passed":  7,
+    "phase3_rows":  356,
+    "phase3_tolerance":  1E-10,
+    "native_sessions":  16,
+    "notebook_executed":  true,
+    "native_daily_model_nav_difference":  -38793.718459296972,
+    "tick_stock_days_compared":  768,
+    "native_completed_fifo_lots":  9,
+    "native_probe_cash_delta_error":  -8.149072527885437E-10,
+    "phase3_max_abs_difference":  0,
+    "phase35_tests_passed":  4,
+    "tick_stock_days_matched":  768,
+    "native_filled_orders":  29
+}

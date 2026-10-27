@@ -1,0 +1,9 @@
+{
+  "source_hashes": {
+    "research_set50_portfolio\\core.py": "f8d89e42582cccf5b0ef49b715d4b387814ed03d63c2575b079513dd8bce851d",
+    "research_set50_portfolio\\runner.py": "30f3eec73f4420921cc0dab9bc712df68113cf58824514b6be8853ddc9f1cf5d",
+    "research_set50_portfolio\\configs\\preregistered.json": "979c875cb500cd0a5a14c4baf8f1a3de9e7bb4f58bb28e387cd6a37d7197f08d"
+  },
+  "phase3_saved": "C:\\Users\\Windows 10\\Downloads\\tradeSim0.2.5\\research_set50_portfolio\\results\\20261027T162905Z_979c875c",
+  "command": "python -m research_set50_execution_validation.run"
+}

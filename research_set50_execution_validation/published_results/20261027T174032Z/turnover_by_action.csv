@@ -1,0 +1,11 @@
+strategy,cause,filled_notional,filled_orders
+A,entry_or_addition,580960357.0,575
+A,exit_or_reduction,326993403.0,457
+B,entry_or_addition,615707038.0,619
+B,exit_or_reduction,361470170.0,428
+C,entry_or_addition,595046948.0,584
+C,exit_or_reduction,340412366.0,458
+D,entry_or_addition,636521226.0,612
+D,exit_or_reduction,382511053.0,442
+E,entry_or_addition,321208442.0,269
+E,exit_or_reduction,140971076.0,120
