@@ -1,6 +1,12 @@
 # SET50 algorithmic trading research
 
-This repository publishes two stages of SET50 research for a 20-session, long-only TradeSim competition. Phase 1 compares five baseline strategies. Phase 2 tests whether stock-level factors predict subsequent cross-sectional returns before building another portfolio strategy.
+This repository publishes three stages of SET50 research for a 20-session, long-only TradeSim competition. Phase 1 compares five baseline strategies. Phase 2 tests stock-level factors. Phase 3 evaluates cost-aware long-only portfolios and competition eligibility.
+
+## Phase 3: portfolio construction and risk
+
+Start with the [executed portfolio notebook](research_set50_portfolio/notebooks/03_portfolio_research.ipynb), [findings](research_set50_portfolio/docs/04_backtest_findings.md), and [published result snapshot](research_set50_portfolio/published_results/README.md). The publication includes source code, frozen configuration, tests, all final-run window and trade records, eligibility and cost audits, and 11 figures. The 24 historical evaluation windows were previously exposed to research inspection.
+
+The primary trend/equal-weight strategy averaged **−0.90% net excess return** and met all Best Alpha conditions in **2/24** windows. Adding the reversal tie-breaker under matched allocation and execution produced **−1.03%** mean net excess and **2/24** eligibility. The low-turnover overlay reduced trading but qualified in **0/24** windows. **No defensible net edge was established.** One-tick costs on vendor-adjusted daily prices are a research scenario, not verified IOC fills. The available 16 tick-data sessions do not establish a full 20-session native result.
 
 ## Phase 2: factors and signals
 
