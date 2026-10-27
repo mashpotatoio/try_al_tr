@@ -1,0 +1,21 @@
+{
+  "seed": 20261027,
+  "initial_cash": 10000000,
+  "primary": "mom20",
+  "alternative_primary": "sma20_sma60",
+  "holdings": 6,
+  "target_exposure": 0.8,
+  "max_weight": 0.2,
+  "rebalance_every": 5,
+  "tie_percentile_gap": 0.05,
+  "threshold_weight": 0.03,
+  "hysteresis_exit_rank": 10,
+  "volatility_window": 20,
+  "participation_rate": 0.01,
+  "commission": 0.00157,
+  "vat": 0.07,
+  "slippage_ticks": 1,
+  "cost_scenarios": ["zero", "official", "two_ticks", "half_fills"],
+  "strategies": ["buy_hold", "A", "B", "C", "D", "risk_only", "E", "sma_trend"],
+  "exit_scenarios": ["scheduled", "rank", "trend_deterioration"]
+}

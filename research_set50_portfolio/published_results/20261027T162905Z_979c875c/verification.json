@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "errors": [],
+  "phase1_integrity": {
+    "files_checked": 5259,
+    "changed": []
+  },
+  "window_records": 356,
+  "daily_records": 7120,
+  "orders": 9915,
+  "fifo_completions": 2463,
+  "figures": 11
+}
